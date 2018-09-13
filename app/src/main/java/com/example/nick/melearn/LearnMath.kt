@@ -8,5 +8,9 @@ class LearnMath : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_learn_math)
+
+        val actionBar = supportActionBar
+        actionBar!!.hide()
+
     }
 }
