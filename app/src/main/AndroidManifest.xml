@@ -18,11 +18,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LearnLanguage"
-                  android:screenOrientation="landscape"/>
+        <activity
+            android:name=".LearnLanguage"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MathPlus"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ProblemSolve"
+            android:screenOrientation="landscape">
 
-        <activity android:name=".LearnMath"
-                  android:screenOrientation="landscape"></activity>
+        </activity>
+        <activity
+            android:name=".LearnMath"
+            android:screenOrientation="landscape">
+
+        </activity>
+        <activity android:name=".MathMinus"
+            android:screenOrientation="landscape">
+
+        </activity>
     </application>
 
 </manifest>

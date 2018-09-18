@@ -1,9 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LearnMath">
 
-</android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/mathText"
+        android:layout_width="239dp"
+        android:layout_height="132dp"
+        android:layout_above="@+id/learn_math"
+        android:layout_centerHorizontal="true"
+        android:text="MATH"
+        android:textSize="60sp" />
+
+
+    <ImageButton
+        android:id="@+id/mathPlus"
+        android:layout_width="291dp"
+        android:layout_height="242dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="81dp"
+        app:srcCompat="@android:color/holo_blue_dark" />
+
+
+    <ImageButton
+        android:id="@+id/mathMinus"
+        android:layout_width="291dp"
+        android:layout_height="242dp"
+        android:layout_centerInParent="true"
+        app:srcCompat="@android:color/holo_blue_bright" />
+
+    <ImageButton
+        android:id="@+id/mathProblemSolve"
+        android:layout_width="291dp"
+        android:layout_height="242dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="75dp"
+        app:srcCompat="@android:color/black" />
+
+
+
+
+</RelativeLayout>

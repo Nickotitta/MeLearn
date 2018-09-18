@@ -4,6 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LearnLanguage">
+    tools:context=".MathPlus">
+
+
+    <TextView
+        android:id="@+id/mathText"
+        android:layout_width="239dp"
+        android:layout_height="132dp"
+        android:layout_above="@+id/learn_math"
+        android:layout_centerHorizontal="true"
+        android:text="Plus"
+        android:textSize="60sp" />
 
 </RelativeLayout>

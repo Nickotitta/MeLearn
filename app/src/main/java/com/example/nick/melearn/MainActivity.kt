@@ -14,13 +14,14 @@ class MainActivity : AppCompatActivity() {
         val actionBar = supportActionBar
         actionBar!!.hide()
 
-        learn_math.setOnClickListener{
+        learn_math.setOnClickListener {
             val intent = Intent(this, LearnMath::class.java)
             startActivity(intent)
         }
+
         learn_language.setOnClickListener{
-            val intent = Intent(this, LearnLanguage::class.java)
-            startActivity(intent)
+            val intent1 = Intent(this, LearnLanguage::class.java)
+            startActivity(intent1)
         }
 
     }
